@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converte Aí</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/all.min.js"></script>
+</head>
+<body>
+    
+    <header >
+        <a href="index.html"><p>Converte Aí!</p></a>
+        <div id="headerIcons">
+            <i class="fas fa-chart-line"></i>
+        </div>
+    </header>
+
+    <main>
+
+        <div id="container">
+
+            <div id="selectionDiv">
+
+
+                <div id="lastConv">
+                    <p id="ultimoValor">sem conversões realizadas</p>
+                </div>
+
+
+                <div class="caixaSelecao">
+                    <select  class="select" id="selection01">
+                        <option value="ARS">ARS</option>
+                        <option value="AUD">AUD</option>
+                        <option value="BTC">BTC</option>
+                        <option value="CAD">CAD</option>
+                        <option value="CHF">CHF</option>
+                        <option value="CNY">CNY</option>
+                        <option value="ETH">ETH</option>
+                        <option value="EUR">EUR</option>
+                        <option value="GBP">GBP</option>
+                        <option value="ILS">ILS</option>
+                        <option value="JPY">JPY</option>
+                        <option value="LTC">LTC</option>
+                        <option value="USD">USD</option>
+                        <option value="USDT">USDT</option>
+                        <option value="XRP">XRP</option>
+                    </select>
+    
+                    <p>></p>
+    
+                    <select class="select" id="selection02">
+                        <option value="ARS">ARS</option>
+                        <option value="AUD">AUD</option>
+                        <option value="BTC">BTC</option>
+                        <option value="CAD">CAD</option>
+                        <option value="CHF">CHF</option>
+                        <option value="CNY">CNY</option>
+                        <option value="ETH">ETH</option>
+                        <option value="EUR">EUR</option>
+                        <option value="GBP">GBP</option>
+                        <option value="ILS">ILS</option>
+                        <option value="JPY">JPY</option>
+                        <option value="LTC">LTC</option>
+                        <option value="USD">USD</option>
+                        <option value="USDT">USDT</option>
+                        <option value="XRP">XRP</option>
+                    </select>
+                </div>
+            
+
+                <input type="button" id="convertBtn" value="converter">
+
+            </div>
+            
+    
+
+            <div id="valor">
+                <p id="resultadoConvert"></p>
+            </div>
+            <div id="dados">
+
+            </div>
+            
+            
+        </div>
+
+    </main>
+
+    <p id="moedasDisponiveis"> <b>moedas disponíveis:</b> <br> <br> ARS, AUD, BTC, CAD, CHF, CNY, ETH, EUR, GBP, ILS, JPY, LTC, USD, USDT, XRP</p>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
